@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+.container{
+    background-position: center;
+    background-size: cover;
+    padding: 6% 10%;
+}
+.con1{
+    background-image: url(images/opensea.webp);
+}
+.con2{
+    background-image: url(images/opensea2.jpg);
+}
+.con3{
+    background-image: url(images/opensea3.jpg);
+}
+.con4{
+    background-image: url(images/beach.jpg);
+}
+.subcontainer1{
+   width: 70%;
+   height: 500px;
+   margin: auto;
+   box-shadow: 0 0 5px black;
+   display: grid;
+   grid-template-columns: 50% 50%;
+   box-sizing: border-box;
+   padding: 5%;
+   text-align: center;
+}
+.subcontainer1>div{
+    box-shadow: 0 0 5px black;
+    background-color: skyblue;
+    opacity: 0.7;
+    padding-top: 4em;
+}
+
+.subcontainer1 a{
+    font-size: 50px;
+    text-decoration: none;
+    color: Blue;
+    font-family: oleo Script Swash Caps;
+}
+.headings{
+    text-align: center;
+    font-size:100px;
+    color: rgb(61, 48, 48);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0;
+}
+.subcontainer2{
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid black; */
+    margin-top: 2em;
+}
+.me{
+    display: flex;
+    padding: 2em;
+}
+.me img{
+    border-radius: 100%;
+}
+.me p{
+    margin-left: 2em;
+    font-family: 'Macondo', cursive;
+    font-size: 20px;
+    color: aliceblue;
+}
+.subcontainer1>div:hover{
+    background-color: rgb(154, 129, 245);
+    transition-duration: 2s;
+}
